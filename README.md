@@ -1,10 +1,11 @@
-StreamProcessing ReadingList
+Stream Processing Systems ReadingList
 --
 Reading list of research works at stream processing. PR are welcome!
 
 ## Overall Review
 
-## Early Prototypes (before 2010)
+## Early Prototypes (before 2005)
+
 - Aurora: a new model and architecture for data stream management, VLDBJ'03 http://cs.brown.edu/research/aurora/vldb03_journal.pdf
 - TelegraphCQ: Continuous Dataflow Processing for an Uncertain World, CIDR'03 http://db.csail.mit.edu/madden/html/TCQcidr03.pdf
 
@@ -16,19 +17,39 @@ Reading list of research works at stream processing. PR are welcome!
 
 ## Query Optimization
 
+- Rate-Based Query Optimization for Streaming Information Sources, SIGMOD'02 http://research.cs.wisc.edu/niagara/papers/rates_crc.pdf
+
+
 ## Execution Engine
+
+- Out-of-Order Processing: A New Architecture for High-Performance Stream Systems, VLDB'08 http://www.vldb.org/pvldb/1/1453890.pdf
+- Drizzle: Fast and Adaptable Stream Processing at Scale, SOSP'17 http://shivaram.org/publications/drizzle-sosp17.pdf
+- Adaptive Stream Processing using Dynamic Batch Sizing, SoCC'14 https://dl.acm.org/citation.cfm?id=2670995
 
 ## State Management
 
+## Elasticity
+
+- A Comprehensive Survey on Parallelization and Elasticity in Stream Processing, 
+
 ## Imprefection Handling
 
+- Sequence Pattern Query Processing over Out-of-Order Event Streams, ICDE'09 https://dspace.mit.edu/openaccess-disseminate/1721.1/59844
 - Quality-Driven Disorder Handling for M-way Sliding Window Stream Joins, ICDE'16 https://ieeexplore.ieee.org/document/7498265
 - Quality-driven disorder handling for concurrent windowed stream queries with shared operators, DEBS'16 https://dl.acm.org/citation.cfm?id=2933307
 - An optimistic approach to handle out-of-order events within analytical stream processing, SEIM'18 http://ceur-ws.org/Vol-2135/SEIM_2018_paper_16.pdf
 
-
 ## AQP
 
-## Emerging Hardware
+- StreamApprox: Approximate Computing for Stream Analytics, Middleware'17 https://www.ruichuan.org/papers/streamapprox-middleware17.pdf
+- Augmented Sketch: Faster and More Accurate Stream Processing, SIGMOD'16 http://www.ntu.edu.sg/home/arijit.khan/Papers/asketch.pdf
+- An Online Approximate Stream Processing Framework with Customized Error Control, IEEE IWQoS'18 http://iwqos2018.ieee-iwqos.org/files/2018/05/An_Online_Approximate_Stream_Processing_Framework.pdf
+
+## Stream Processing on Emerging Hardware
+
+- StreamBox: Modern Stream Processing on a Multicore Machine, ATC'17 https://www.usenix.org/system/files/conference/atc17/atc17-miao.pdf
+- High-Performance Stateful Stream Processing on Solid-State Drives, APSys'18 http://spl.snu.ac.kr/wp-content/uploads/2012/07/a9-lee.pdf
+- Low latency stream processing: Apache Heron with Infiniband & Intel Omni-Path, UCC’17 http://dsc.soic.indiana.edu/publications/Heron_Infiniband.pdf
+-SABER: Window-Based Hybrid Stream Processing for Heterogeneous Architectures, SIGMOD'16 https://www.matthiasweidlich.com/paper/saber_SIGMOD_2016.pdf
 
 ## Machine Learning

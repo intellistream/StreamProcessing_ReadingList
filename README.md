@@ -1,4 +1,8 @@
 # StreamProcessing ReadingList
+---
+Reading list of research works at stream processing. PR are welcome!
+
+## Overall Review
 
 ## Earlier Prototypes (before 2010)
 
@@ -14,4 +18,6 @@
 
 ## AQP
 
+## Emerging Hardware
 
+## Machine Learning

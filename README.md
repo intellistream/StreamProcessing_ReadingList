@@ -8,9 +8,10 @@ Reading list of research works at stream processing. PR are welcome!
 
 ## Early Prototypes (before 2005)
 
+- TelegraphCQ: Continuous Dataflow Processing for an Uncertain World, CIDR'03 http://db.csail.mit.edu/madden/html/TCQcidr03.pdf
 - Aurora: a new model and architecture for data stream management, VLDBJ'03 http://cs.brown.edu/research/aurora/vldb03_journal.pdf
 - The Design of the Borealis Stream Processing Engine, CIDR'05 http://cidrdb.org/cidr2005/papers/P23.pdf
-- TelegraphCQ: Continuous Dataflow Processing for an Uncertain World, CIDR'03 http://db.csail.mit.edu/madden/html/TCQcidr03.pdf
+
 
 ## New Directions
 

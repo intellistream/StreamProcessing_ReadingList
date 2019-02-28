@@ -55,11 +55,20 @@ Reading list of research works at stream processing. PR are welcome!
 - Quality-driven disorder handling for concurrent windowed stream queries with shared operators, DEBS'16 https://dl.acm.org/citation.cfm?id=2933307
 - An optimistic approach to handle out-of-order events within analytical stream processing, SEIM'18 http://ceur-ws.org/Vol-2135/SEIM_2018_paper_16.pdf
 
+## Deterministic Stream Processing
+
+- FlameStream: Model and Runtime for Distributed Stream Processing, BeyondMR'18 https://dl.acm.org/citation.cfm?id=3209273
+- Deterministic Model for Distributed Speculative Stream Processing, ADBIS'18 https://link.springer.com/chapter/10.1007/978-3-319-98398-1_16
+- Maximizing Determinism in Stream Processing Under Latency Constraints, DEBS'17 https://dl.acm.org/citation.cfm?id=3093921
+
+
 ## AQP
 
 - StreamApprox: Approximate Computing for Stream Analytics, Middleware'17 https://www.ruichuan.org/papers/streamapprox-middleware17.pdf
 - Augmented Sketch: Faster and More Accurate Stream Processing, SIGMOD'16 http://www.ntu.edu.sg/home/arijit.khan/Papers/asketch.pdf
 - An Online Approximate Stream Processing Framework with Customized Error Control, IEEE IWQoS'18 http://iwqos2018.ieee-iwqos.org/files/2018/05/An_Online_Approximate_Stream_Processing_Framework.pdf
+
+
 
 ## Stream Processing on Emerging Hardware
 - SABER: Window-Based Hybrid Stream Processing for Heterogeneous Architectures, SIGMOD'16 https://www.matthiasweidlich.com/paper/saber_SIGMOD_2016.pdf
@@ -67,6 +76,12 @@ Reading list of research works at stream processing. PR are welcome!
 - StreamBox: Modern Stream Processing on a Multicore Machine, ATC'17 https://www.usenix.org/system/files/conference/atc17/atc17-miao.pdf
 - Low latency stream processing: Apache Heron with Infiniband & Intel Omni-Path, UCC’17 http://dsc.soic.indiana.edu/publications/Heron_Infiniband.pdf
 - High-Performance Stateful Stream Processing on Solid-State Drives, APSys'18 http://spl.snu.ac.kr/wp-content/uploads/2012/07/a9-lee.pdf
+- Scaling Ordered Stream Processing on Shared-Memory Multicores, 	arXiv'18 https://arxiv.org/abs/1803.11328
 - StreamBox-HBM: Stream Analytics on High Bandwidth Hybrid Memory, ASPLOS'19 https://arxiv.org/pdf/1901.01328.pdf
 
+
 ## Stream Processing with Machine Learning
+
+- A Framework for Real-time Streaming Analytics using Machine Learning Approach, ICCST'14 https://ieeexplore.ieee.org/document/6987044/
+- Online Machine Learning in Big Data Streams, arXiv'18 https://arxiv.org/pdf/1802.05872.pdf
+

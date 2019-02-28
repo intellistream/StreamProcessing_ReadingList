@@ -11,7 +11,7 @@ Reading list of research works at stream processing. PR are welcome!
 
 ## New Directions
 
-Chi: A Scalable and Programmable Control Plane for Distributed Stream Processing Systems, VLDB'18 http://shivaram.org/publications/chi-vldb18.pdf
+- Chi: A Scalable and Programmable Control Plane for Distributed Stream Processing Systems, VLDB'18 http://shivaram.org/publications/chi-vldb18.pdf
 
 ## APIs
 
@@ -29,12 +29,14 @@ Chi: A Scalable and Programmable Control Plane for Distributed Stream Processing
 - Out-of-Order Processing: A New Architecture for High-Performance Stream Systems, VLDB'08 http://www.vldb.org/pvldb/1/1453890.pdf
 - Drizzle: Fast and Adaptable Stream Processing at Scale, SOSP'17 http://shivaram.org/publications/drizzle-sosp17.pdf
 - Adaptive Stream Processing using Dynamic Batch Sizing, SoCC'14 https://dl.acm.org/citation.cfm?id=2670995
+- A Holistic View of Stream Partitioning Costs, VLDB'17 http://www.vldb.org/pvldb/vol10/p1286-katsipoulakis.pdf
 
 ## State Management
 
 ## Elasticity
 
 - Elastic Scaling for Data Stream Processing, TPDS'14 http://hirzels.com/martin/papers/tpds14-elastic.pdf
+- Dynamic Load Balancing for Ordered Data-Parallel Regions in Distributed Streaming Systems, Middleware'16 http://cse.unl.edu/~ylu/csce990/papers/Dynamic%20Load%20Balancing%20for%20Ordered%20Data-Parallel%20Regions%20in%20Distributed%20Streaming%20Systems.pdf
 - A Comprehensive Survey on Parallelization and Elasticity in Stream Processing, ACM Computing Surveys'19 https://arxiv.org/pdf/1901.09716.pdf
 
 ## Imprefection Handling

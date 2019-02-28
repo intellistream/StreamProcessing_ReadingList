@@ -2,11 +2,14 @@ Stream Processing Systems ReadingList
 --
 Reading list of research works at stream processing. PR are welcome!
 
-## Overall Review
+## Overall Surveys
+
+
 
 ## Early Prototypes (before 2005)
 
 - Aurora: a new model and architecture for data stream management, VLDBJ'03 http://cs.brown.edu/research/aurora/vldb03_journal.pdf
+- The Design of the Borealis Stream Processing Engine, CIDR'05 http://cidrdb.org/cidr2005/papers/P23.pdf
 - TelegraphCQ: Continuous Dataflow Processing for an Uncertain World, CIDR'03 http://db.csail.mit.edu/madden/html/TCQcidr03.pdf
 
 ## New Directions
@@ -19,22 +22,27 @@ Reading list of research works at stream processing. PR are welcome!
 - The CQL Continuous Query Language: Semantic Foundations and Query Execution, VLDBJ'06 https://dl.acm.org/citation.cfm?id=1146463
 - Towards a Streaming SQL Standard, VLDB'08 http://cs.brown.edu/~ugur/streamsql.pdf
 
-## Query Optimization
+## Cost Model and Query Optimization
 
 - Rate-Based Query Optimization for Streaming Information Sources, SIGMOD'02 http://research.cs.wisc.edu/niagara/papers/rates_crc.pdf
 - Modeling Performance of a Parallel Streaming Engine: Bridging Theory and Costs, ICPE'13 https://dl.acm.org/citation.cfm?id=2479895
+- A Holistic View of Stream Partitioning Costs, VLDB'17 http://www.vldb.org/pvldb/vol10/p1286-katsipoulakis.pdf
+
 
 ## Execution Engine
 
 - Out-of-Order Processing: A New Architecture for High-Performance Stream Systems, VLDB'08 http://www.vldb.org/pvldb/1/1453890.pdf
 - Drizzle: Fast and Adaptable Stream Processing at Scale, SOSP'17 http://shivaram.org/publications/drizzle-sosp17.pdf
 - Adaptive Stream Processing using Dynamic Batch Sizing, SoCC'14 https://dl.acm.org/citation.cfm?id=2670995
-- A Holistic View of Stream Partitioning Costs, VLDB'17 http://www.vldb.org/pvldb/vol10/p1286-katsipoulakis.pdf
+
 
 ## State Management
 
+- A Survey of State Management in Big Data Processing Systems, VLDBJ'18 https://arxiv.org/pdf/1702.01596.pdf
+
 ## Elasticity
 
+- Latency-aware Elastic Scaling for Distributed Data Stream Processing Systems, DEBS'14 https://dl.acm.org/citation.cfm?id=2611294
 - Elastic Scaling for Data Stream Processing, TPDS'14 http://hirzels.com/martin/papers/tpds14-elastic.pdf
 - Dynamic Load Balancing for Ordered Data-Parallel Regions in Distributed Streaming Systems, Middleware'16 http://cse.unl.edu/~ylu/csce990/papers/Dynamic%20Load%20Balancing%20for%20Ordered%20Data-Parallel%20Regions%20in%20Distributed%20Streaming%20Systems.pdf
 - A Comprehensive Survey on Parallelization and Elasticity in Stream Processing, ACM Computing Surveys'19 https://arxiv.org/pdf/1901.09716.pdf

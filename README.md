@@ -81,7 +81,7 @@ Reading list of research works at stream processing. PR are welcome!
 - PanJoin: A Partition-based Adaptive Stream Join, arxiv'18 https://arxiv.org/abs/1811.05065
 
 ### GPU
-- Toward GPU Accelerated Data Stream Processing
+- Toward GPU Accelerated Data Stream Processing, GI-Workshop'15 http://ceur-ws.org/Vol-1366/paper15.pdf
 - High Performance Content-Based Matching Using GPUs, DEBS'11 https://home.deib.polimi.it/margara/papers/cudaFF.pdf
 - GStream: A General-Purpose Data Streaming Framework on GPU Clusters, ICPP'11 http://optout.csc.ncsu.edu/~mueller/ftp/pub/mueller/papers/icpp11-1.pdf
 - A Scalable Software Framework for Stateful Stream Data Processing on Multiple GPUs and Applications, GPU Computing and Applications'14  https://link.springer.com/chapter/10.1007/978-981-287-134-3_7

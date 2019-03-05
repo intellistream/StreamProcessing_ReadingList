@@ -81,15 +81,19 @@ Reading list of research works at stream processing. PR are welcome!
 - PanJoin: A Partition-based Adaptive Stream Join, arxiv'18 https://arxiv.org/abs/1811.05065
 
 ### GPU
-- Toward GPU Accelerated Data Stream Processing, GI-Workshop'15 http://ceur-ws.org/Vol-1366/paper15.pdf
+
 - High Performance Content-Based Matching Using GPUs, DEBS'11 https://home.deib.polimi.it/margara/papers/cudaFF.pdf
 - GStream: A General-Purpose Data Streaming Framework on GPU Clusters, ICPP'11 http://optout.csc.ncsu.edu/~mueller/ftp/pub/mueller/papers/icpp11-1.pdf
+- Processing data streams with hard real-time constraints on heterogeneous systems, ICS'11 https://dl.acm.org/citation.cfm?id=1995915
+- Scheduling processing of real-time data streams on heterogeneous multi-GPU systems, SYSTOR 2012 http://www.cs.technion.ac.il/~uriv/Publications/ver-multigpu-systor12-authorcopy.pdf
+- Toward GPU Accelerated Data Stream Processing, GI-Workshop'15 http://ceur-ws.org/Vol-1366/paper15.pdf
 - A Scalable Software Framework for Stateful Stream Data Processing on Multiple GPUs and Applications, GPU Computing and Applications'14  https://link.springer.com/chapter/10.1007/978-981-287-134-3_7
 - G-Storm: GPU-enabled high-throughput online data processing in Storm, BIG DATA '15 https://dl.acm.org/citation.cfm?id=2878053
 - Communication-aware mapping of stream graphs for multi-GPU platforms, CGO’16 https://dl.acm.org/citation.cfm?id=2854055
 - GStreamMiner: A GPU-accelerated Data Stream Mining Framework, CIKM'16 https://dl.acm.org/citation.cfm?id=2983341
 - SABER: Window-Based Hybrid Stream Processing for Heterogeneous Architectures, SIGMOD'16 https://www.matthiasweidlich.com/paper/saber_SIGMOD_2016.pdf
 - TerseCades: Efficient Data Compression in Stream Processing, ATC'18 https://www.usenix.org/system/files/conference/atc18/atc18-pekhimenko.pdf
+
 
 ### Multicore, Manycore processor
 - Auto-pipelining for Data Stream Processing, TPDS'13 https://tristartom.github.io/docs/tpds13.pdf
@@ -112,6 +116,12 @@ Reading list of research works at stream processing. PR are welcome!
 ### HBM
 - StreamBox-HBM: Stream Analytics on High Bandwidth Hybrid Memory, ASPLOS'19 https://arxiv.org/pdf/1901.01328.pdf
 - Stream Processing on High-Bandwidth Memory, GI-Workshop'18 http://ceur-ws.org/Vol-2126/paper6.pdf
+
+### NVRAM
+- NVStream: accelerating HPC workflows with NVRAM-based transport for streaming objects, HPDC '18 https://dl.acm.org/citation.cfm?id=3208061
+
+### others
+- P4CEP: Towards In-Network Complex Event Processing, NetCompute '18, https://dl.acm.org/citation.cfm?id=3229593
 
 ## Stream Processing with Machine Learning
 

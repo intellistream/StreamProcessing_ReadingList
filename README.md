@@ -2,8 +2,9 @@ Stream Processing Systems ReadingList
 --
 Reading list of research works at stream processing. PR are welcome!
 
-## Overall Surveys
+## Surveys
 
+Tutorial: Sliding-Window Aggregation Algorithms, http://hirzels.com/martin/papers/debs17-tutorial.pdf
 
 
 ## Early Prototypes (before 2005)
@@ -35,7 +36,7 @@ Reading list of research works at stream processing. PR are welcome!
 - Out-of-Order Processing: A New Architecture for High-Performance Stream Systems, VLDB'08 http://www.vldb.org/pvldb/1/1453890.pdf
 - Drizzle: Fast and Adaptable Stream Processing at Scale, SOSP'17 http://shivaram.org/publications/drizzle-sosp17.pdf
 - Adaptive Stream Processing using Dynamic Batch Sizing, SoCC'14 https://dl.acm.org/citation.cfm?id=2670995
-
+- Sub-O(log n) Out-of-Order Sliding-Window Aggregation, https://arxiv.org/pdf/1810.11308.pdf
 
 ## State Management
 
@@ -79,10 +80,12 @@ Reading list of research works at stream processing. PR are welcome!
 - Streams on Wires — A Query Compiler for FPGAs, VLDB'09 https://dl.acm.org/citation.cfm?id=1687654
 - How Soccer Players Would do Stream Joins, SIGMOD'11 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.362.2471&rep=rep1&type=pdf
 - PanJoin: A Partition-based Adaptive Stream Join, arxiv'18 https://arxiv.org/abs/1811.05065
+- Single window stream aggregation using reconfigurable hardware, ICFPT'17 https://ieeexplore.ieee.org/abstract/document/8280128
+- An Efficient and Scalable Implementation of Sliding-Window Aggregate Operator on FPGA, CANDAR'13 https://core.ac.uk/download/pdf/147692472.pdf
+- FPGA-Accelerated Group-by Aggregation Using Synchronizing Caches
 
 ### GPU
-
-- High Performance Content-Based Matching Using GPUs, DEBS'11 https://home.deib.polimi.it/margara/papers/cudaFF.pdf
+- Stream Join Processing on Heterogeneous Processors, BTW workshop'13 https://www.semanticscholar.org/paper/Stream-Join-Processing-on-Heterogeneous-Processors-Karnagel-Schlegel/1678406ae271c6a421510a3cf811e95978dc51ae
 - GStream: A General-Purpose Data Streaming Framework on GPU Clusters, ICPP'11 http://optout.csc.ncsu.edu/~mueller/ftp/pub/mueller/papers/icpp11-1.pdf
 - Processing data streams with hard real-time constraints on heterogeneous systems, ICS'11 https://dl.acm.org/citation.cfm?id=1995915
 - Scheduling processing of real-time data streams on heterogeneous multi-GPU systems, SYSTOR 2012 http://www.cs.technion.ac.il/~uriv/Publications/ver-multigpu-systor12-authorcopy.pdf
@@ -97,7 +100,6 @@ Reading list of research works at stream processing. PR are welcome!
 
 ### Multicore, Manycore processor
 - Orchestrating the Execution of Stream Programs on Multicore Platforms, PLDI'08 https://dl.acm.org/citation.cfm?id=1375596
-- Parallel event processing for content-based publish/subscribe systems, DEBS'09 
 - Auto-pipelining for Data Stream Processing, TPDS'13 https://tristartom.github.io/docs/tpds13.pdf
 - Low Power and Scalable Many-Core Architecture for Big-Data Stream Computing,VLSI'14, http://medianetlab.ee.ucla.edu/papers/ISVLSI_FINAL.pdf
 - Low-Latency Handshake Join, VLDB'14 http://www.vldb.org/pvldb/vol7/p709-roy.pdf

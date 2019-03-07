@@ -40,6 +40,7 @@ Tutorial: Sliding-Window Aggregation Algorithms, http://hirzels.com/martin/paper
 
 ## Availability 
 - High-Availability Algorithms for Distributed Stream Processing, ICDE'05 http://cs.brown.edu/research/aurora/hwang.icde05.ha.pdf
+- Fault-tolerant Stream Processing using a Distributed, Replicated File System, VLDB'08 http://www.vldb.org/pvldb/1/1453920.pdf
 
 ## Elasticity
 
@@ -123,11 +124,13 @@ Tutorial: Sliding-Window Aggregation Algorithms, http://hirzels.com/martin/paper
 - Stream Processing on High-Bandwidth Memory, GI-Workshop'18 http://ceur-ws.org/Vol-2126/paper6.pdf
 
 ### NVRAM
-- Energy-Efficient Streaming Using Non-volatile Memory
-- NVStream: accelerating HPC workflows with NVRAM-based transport for streaming objects, HPDC '18 https://dl.acm.org/citation.cfm?id=3208061
+- An NVM-Aware Storage Layout for Analytical Workloads, http://www.carch.ac.cn/~ictdb/HardBD-Active-2018/papers/GotzeBS-hardbd-active-18.pdf
+- Energy-Efficient Streaming Using Non-volatile Memory, https://link.springer.com/content/pdf/10.1007%2Fs11265-008-0308-1.pdf
+
 
 ### others
 - P4CEP: Towards In-Network Complex Event Processing, NetCompute '18, https://dl.acm.org/citation.cfm?id=3229593
+- NVStream: accelerating HPC workflows with NVRAM-based transport for streaming objects, HPDC '18 https://dl.acm.org/citation.cfm?id=3208061 NOTE: not stream processing.
 
 ## Stream Processing with Machine Learning
 

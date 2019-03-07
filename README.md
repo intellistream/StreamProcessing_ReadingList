@@ -29,7 +29,7 @@ Tutorial: Sliding-Window Aggregation Algorithms, http://hirzels.com/martin/paper
 - Rate-Based Query Optimization for Streaming Information Sources, SIGMOD'02 http://research.cs.wisc.edu/niagara/papers/rates_crc.pdf
 - Modeling Performance of a Parallel Streaming Engine: Bridging Theory and Costs, ICPE'13 https://dl.acm.org/citation.cfm?id=2479895
 - A Holistic View of Stream Partitioning Costs, VLDB'17 http://www.vldb.org/pvldb/vol10/p1286-katsipoulakis.pdf
-
+- Maximizing the Output Rate of Multi-Way Join Queries over Streaming Information Sources, VLDB'03 http://www.vldb.org/conf/2003/papers/S10P01.pdf
 
 ## Execution Engine
 
@@ -123,6 +123,7 @@ Tutorial: Sliding-Window Aggregation Algorithms, http://hirzels.com/martin/paper
 - Stream Processing on High-Bandwidth Memory, GI-Workshop'18 http://ceur-ws.org/Vol-2126/paper6.pdf
 
 ### NVRAM
+- Energy-Efficient Streaming Using Non-volatile Memory
 - NVStream: accelerating HPC workflows with NVRAM-based transport for streaming objects, HPDC '18 https://dl.acm.org/citation.cfm?id=3208061
 
 ### others
@@ -132,4 +133,4 @@ Tutorial: Sliding-Window Aggregation Algorithms, http://hirzels.com/martin/paper
 
 - A Framework for Real-time Streaming Analytics using Machine Learning Approach, ICCST'14 https://ieeexplore.ieee.org/document/6987044/
 - Online Machine Learning in Big Data Streams, arXiv'18 https://arxiv.org/pdf/1802.05872.pdf
-
+- Online Learning and Stochastic Approximations, https://leon.bottou.org/publications/pdf/online-1998.pdf

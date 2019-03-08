@@ -68,6 +68,11 @@ Reading list of research works at stream processing. PR are welcome!
 
 ## Hardware Consious Stream Processing 
 
+### Experimental study
+
+- Evaluation of Streaming Aggregation on Parallel Hardware Architectures, DEBS'10 https://www.scott-a-s.com/files/debs2010.pdf.
+- Analyzing Efficient Stream Processing on Modern Hardware, VLDB'19 http://www.vldb.org/pvldb/vol12/p516-zeuch.pdf
+
 ### Cache
 - Cache-Conscious Scheduling of Streaming Applications, SPAA'12 https://dspace.mit.edu/bitstream/handle/1721.1/90261/leiserson_cache-conscious.pdf?sequence=1
 
@@ -110,7 +115,6 @@ Reading list of research works at stream processing. PR are welcome!
 - Scaling Ordered Stream Processing on Shared-Memory Multicores, 	arXiv'18 https://arxiv.org/abs/1803.11328
 - Exploiting Manycore Architectures for Parallel Data Stream Processing, GI-Workshop'18, http://ceur-ws.org/Vol-1858/paper13.pdf
 - Hammer Slide: Work- and CPU-efficient Streaming Window Aggregation, ADMS'18 https://spiral.imperial.ac.uk/bitstream/10044/1/62249/2/SIMDWindowPaper_ADMS.pdf
-- Analyzing Efficient Stream Processing on Modern Hardware, VLDB'19 http://www.vldb.org/pvldb/vol12/p516-zeuch.pdf
 
 
 ### Infiniband

@@ -4,7 +4,7 @@ Reading list of research works at stream processing. PR are welcome!
 
 ## Surveys
 
-Tutorial: Sliding-Window Aggregation Algorithms, http://hirzels.com/martin/papers/debs17-tutorial.pdf
+- Tutorial: Sliding-Window Aggregation Algorithms, http://hirzels.com/martin/papers/debs17-tutorial.pdf
 - A Survey of State Management in Big Data Processing Systems, VLDBJ'18 https://arxiv.org/pdf/1702.01596.pdf
 
 ## Early Prototypes (before 2005)

@@ -2,6 +2,72 @@ Stream Processing Systems ReadingList
 --
 Reading list of research works at stream processing. PR are welcome!
 
+# Hardware Consious Stream Processing 
+
+## Experimental study
+
+- Evaluation of Streaming Aggregation on Parallel Hardware Architectures, DEBS'10 https://www.scott-a-s.com/files/debs2010.pdf.
+- Revisiting the Design of Data Stream Processing Systems on Multi-Core Processors, ICDE'17 https://www.comp.nus.edu.sg/~hebs/pub/shuhaoICDE17a.pdf
+- Analyzing Efficient Stream Processing on Modern Hardware, VLDB'19 http://www.vldb.org/pvldb/vol12/p516-zeuch.pdf
+
+## Accelerating Expensive Operator
+### Cell Processor (died?)
+- CellJoin: a parallel stream join operator for the cell processor, VLDB'09 https://dl.acm.org/citation.cfm?id=1527463
+### Multisocket, multicore
+- Scalejoin: A deterministic, disjoint-parallel and skew-resilient stream join, 2015 IEEE International Conference on Big Data (Big Data) http://www.cse.chalmers.se/~ioaniko/docs/bigdata15.pdf
+- SplitJoin: A Scalable, Low-latency Stream Join Architecture with Adjustable Ordering Precision, ATC'16 https://www.usenix.org/node/196252
+- StreamBox: Modern Stream Processing on a Multicore Machine, ATC'17 https://www.usenix.org/system/files/conference/atc17/atc17-miao.pdf
+- Scaling Ordered Stream Processing on Shared-Memory Multicores, 	arXiv'18 https://arxiv.org/abs/1803.11328
+- Hammer Slide: Work- and CPU-efficient Streaming Window Aggregation, ADMS'18 https://spiral.imperial.ac.uk/bitstream/10044/1/62249/2/SIMDWindowPaper_ADMS.pdf
+
+### FPGA
+- How Soccer Players Would do Stream Joins, SIGMOD'11 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.362.2471&rep=rep1&type=pdf
+- An Efficient and Scalable Implementation of Sliding-Window Aggregate Operator on FPGA, CANDAR'13 https://core.ac.uk/download/pdf/147692472.pdf
+- Low-Latency Handshake Join, VLDB'14 http://www.vldb.org/pvldb/vol7/p709-roy.pdf
+- An FPGA-based High-Throughput Stream Join Architecture, FPL'16 https://www.extrahpc.eu/media/public/publicity/publication/an-fpga-based-high-throughput-stream-join-architecture.pdf
+- FPGA-Accelerated Group-by Aggregation Using Synchronizing Caches, DaMoN '16 https://dl.acm.org/citation.cfm?id=2933360
+- Single window stream aggregation using reconfigurable hardware, ICFPT'17 https://ieeexplore.ieee.org/abstract/document/8280128
+- PanJoin: A Partition-based Adaptive Stream Join, arxiv'18 https://arxiv.org/abs/1811.05065
+### GPGPU
+- Stream Join Processing on Heterogeneous Processors, BTW workshop'13 https://www.semanticscholar.org/paper/Stream-Join-Processing-on-Heterogeneous-Processors-Karnagel-Schlegel/1678406ae271c6a421510a3cf811e95978dc51ae
+
+## Efficient Stream Flow
+### Internal Stream Flow
+- TerseCades: Efficient Data Compression in Stream Processing, ATC'18 https://www.usenix.org/system/files/conference/atc18/atc18-pekhimenko.pdf
+- Low latency stream processing: Apache Heron with Infiniband & Intel Omni-Path, UCC’17 http://dsc.soic.indiana.edu/publications/Heron_Infiniband.pdf
+- StreamBox-HBM: Stream Analytics on High Bandwidth Hybrid Memory, ASPLOS'19 https://arxiv.org/pdf/1901.01328.pdf
+- Stream Processing on High-Bandwidth Memory, GI-Workshop'18 http://ceur-ws.org/Vol-2126/paper6.pdf
+### External Stream Flow
+- High-Performance Stateful Stream Processing on Solid-State Drives, APSys'18 http://spl.snu.ac.kr/wp-content/uploads/2012/07/a9-lee.pdf
+- An NVM-Aware Storage Layout for Analytical Workloads, http://www.carch.ac.cn/~ictdb/HardBD-Active-2018/papers/GotzeBS-hardbd-active-18.pdf
+- Energy-Efficient Streaming Using Non-volatile Memory, https://link.springer.com/content/pdf/10.1007%2Fs11265-008-0308-1.pdf
+
+## HW-Conscious Query Optimization
+### Cache
+- Cache-Conscious Scheduling of Streaming Applications, SPAA'12 https://dspace.mit.edu/bitstream/handle/1721.1/90261/leiserson_cache-conscious.pdf?sequence=1
+### Multisocket, multicore
+- Orchestrating the Execution of Stream Programs on Multicore Platforms, PLDI'08 https://dl.acm.org/citation.cfm?id=1375596
+- Auto-pipelining for Data Stream Processing, TPDS'13 https://tristartom.github.io/docs/tpds13.pdf
+- Low Power and Scalable Many-Core Architecture for Big-Data Stream Computing,VLSI'14, http://medianetlab.ee.ucla.edu/papers/ISVLSI_FINAL.pdf
+- Trill: A High-Performance Incremental Query Processor for Diverse Analytics, VLDB'14 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/trill-vldb2015.pdf
+- A Cost Model for Data Stream Processing on Modern Hardware, ADMS'17 https://pdfs.semanticscholar.org/4806/7dc25203e351444a60e502adab45bf543c9d.pdf
+- Exploiting Manycore Architectures for Parallel Data Stream Processing, GI-Workshop'18, http://ceur-ws.org/Vol-1858/paper13.pdf
+### FPGA
+- A Computing Origami: Folding Streams in FPGAs, DAC'09 https://www.comp.nus.edu.sg/~wongwf/papers/DAC09_Andrei.pdf
+- Streams on Wires — A Query Compiler for FPGAs, VLDB'09 https://dl.acm.org/citation.cfm?id=1687654
+### GPGPU
+- GStream: A General-Purpose Data Streaming Framework on GPU Clusters, ICPP'11 http://optout.csc.ncsu.edu/~mueller/ftp/pub/mueller/papers/icpp11-1.pdf
+- Processing data streams with hard real-time constraints on heterogeneous systems, ICS'11 https://dl.acm.org/citation.cfm?id=1995915
+- Scheduling processing of real-time data streams on heterogeneous multi-GPU systems, SYSTOR 2012 http://www.cs.technion.ac.il/~uriv/Publications/ver-multigpu-systor12-authorcopy.pdf
+- A Scalable Software Framework for Stateful Stream Data Processing on Multiple GPUs and Applications, GPU Computing and Applications'14  https://link.springer.com/chapter/10.1007/978-981-287-134-3_7
+- Toward GPU Accelerated Data Stream Processing, GI-Workshop'15 http://ceur-ws.org/Vol-1366/paper15.pdf
+- G-Storm: GPU-enabled high-throughput online data processing in Storm, BIG DATA '15 https://dl.acm.org/citation.cfm?id=2878053
+- Communication-aware mapping of stream graphs for multi-GPU platforms, CGO’16 https://dl.acm.org/citation.cfm?id=2854055
+- GStreamMiner: A GPU-accelerated Data Stream Mining Framework, CIKM'16 https://dl.acm.org/citation.cfm?id=2983341
+- SABER: Window-Based Hybrid Stream Processing for Heterogeneous Architectures, SIGMOD'16 https://www.matthiasweidlich.com/paper/saber_SIGMOD_2016.pdf
+
+# General Stream Processing 
+
 ## Surveys
 
 - Tutorial: Sliding-Window Aggregation Algorithms, http://hirzels.com/martin/papers/debs17-tutorial.pdf
@@ -66,84 +132,7 @@ Reading list of research works at stream processing. PR are welcome!
 - Augmented Sketch: Faster and More Accurate Stream Processing, SIGMOD'16 http://www.ntu.edu.sg/home/arijit.khan/Papers/asketch.pdf
 - An Online Approximate Stream Processing Framework with Customized Error Control, IEEE IWQoS'18 http://iwqos2018.ieee-iwqos.org/files/2018/05/An_Online_Approximate_Stream_Processing_Framework.pdf
 
-
-## Hardware Consious Stream Processing 
-
-### Experimental study
-
-- Evaluation of Streaming Aggregation on Parallel Hardware Architectures, DEBS'10 https://www.scott-a-s.com/files/debs2010.pdf.
-- Analyzing Efficient Stream Processing on Modern Hardware, VLDB'19 http://www.vldb.org/pvldb/vol12/p516-zeuch.pdf
-
-### Accelerating Expensive Operator
-
-#### Cell Processor (died?)
-- CellJoin: a parallel stream join operator for the cell processor, VLDB'09 https://dl.acm.org/citation.cfm?id=1527463
-
-#### FPGA
-
-- How Soccer Players Would do Stream Joins, SIGMOD'11 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.362.2471&rep=rep1&type=pdf
-- An Efficient and Scalable Implementation of Sliding-Window Aggregate Operator on FPGA, CANDAR'13 https://core.ac.uk/download/pdf/147692472.pdf
-- Low-Latency Handshake Join, VLDB'14 http://www.vldb.org/pvldb/vol7/p709-roy.pdf
-- An FPGA-based High-Throughput Stream Join Architecture, FPL'16 https://www.extrahpc.eu/media/public/publicity/publication/an-fpga-based-high-throughput-stream-join-architecture.pdf
-- FPGA-Accelerated Group-by Aggregation Using Synchronizing Caches, DaMoN '16 https://dl.acm.org/citation.cfm?id=2933360
-- Single window stream aggregation using reconfigurable hardware, ICFPT'17 https://ieeexplore.ieee.org/abstract/document/8280128
-- PanJoin: A Partition-based Adaptive Stream Join, arxiv'18 https://arxiv.org/abs/1811.05065
-
-#### GPGPU
-- Stream Join Processing on Heterogeneous Processors, BTW workshop'13 https://www.semanticscholar.org/paper/Stream-Join-Processing-on-Heterogeneous-Processors-Karnagel-Schlegel/1678406ae271c6a421510a3cf811e95978dc51ae
-
-#### Multisocket, multicore
-- Scalejoin: A deterministic, disjoint-parallel and skew-resilient stream join, 2015 IEEE International Conference on Big Data (Big Data) http://www.cse.chalmers.se/~ioaniko/docs/bigdata15.pdf
-- SplitJoin: A Scalable, Low-latency Stream Join Architecture with Adjustable Ordering Precision, ATC'16 https://www.usenix.org/node/196252
-- StreamBox: Modern Stream Processing on a Multicore Machine, ATC'17 https://www.usenix.org/system/files/conference/atc17/atc17-miao.pdf
-- Scaling Ordered Stream Processing on Shared-Memory Multicores, 	arXiv'18 https://arxiv.org/abs/1803.11328
-- Hammer Slide: Work- and CPU-efficient Streaming Window Aggregation, ADMS'18 https://spiral.imperial.ac.uk/bitstream/10044/1/62249/2/SIMDWindowPaper_ADMS.pdf
-
-### Efficient Stream Flow
-
-#### Internal Stream Flow
-- TerseCades: Efficient Data Compression in Stream Processing, ATC'18 https://www.usenix.org/system/files/conference/atc18/atc18-pekhimenko.pdf
-- Low latency stream processing: Apache Heron with Infiniband & Intel Omni-Path, UCC’17 http://dsc.soic.indiana.edu/publications/Heron_Infiniband.pdf
-- StreamBox-HBM: Stream Analytics on High Bandwidth Hybrid Memory, ASPLOS'19 https://arxiv.org/pdf/1901.01328.pdf
-- Stream Processing on High-Bandwidth Memory, GI-Workshop'18 http://ceur-ws.org/Vol-2126/paper6.pdf
-
-#### External Stream Flow
-- High-Performance Stateful Stream Processing on Solid-State Drives, APSys'18 http://spl.snu.ac.kr/wp-content/uploads/2012/07/a9-lee.pdf
-- An NVM-Aware Storage Layout for Analytical Workloads, http://www.carch.ac.cn/~ictdb/HardBD-Active-2018/papers/GotzeBS-hardbd-active-18.pdf
-- Energy-Efficient Streaming Using Non-volatile Memory, https://link.springer.com/content/pdf/10.1007%2Fs11265-008-0308-1.pdf
-
-### HW-Conscious Query Optimization
-
-#### Cache
-- Cache-Conscious Scheduling of Streaming Applications, SPAA'12 https://dspace.mit.edu/bitstream/handle/1721.1/90261/leiserson_cache-conscious.pdf?sequence=1
-
-#### Multisocket, multicore
-- Orchestrating the Execution of Stream Programs on Multicore Platforms, PLDI'08 https://dl.acm.org/citation.cfm?id=1375596
-- Auto-pipelining for Data Stream Processing, TPDS'13 https://tristartom.github.io/docs/tpds13.pdf
-- Low Power and Scalable Many-Core Architecture for Big-Data Stream Computing,VLSI'14, http://medianetlab.ee.ucla.edu/papers/ISVLSI_FINAL.pdf
-- Trill: A High-Performance Incremental Query Processor for Diverse Analytics, VLDB'14 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/trill-vldb2015.pdf
-- A Cost Model for Data Stream Processing on Modern Hardware, ADMS'17 https://pdfs.semanticscholar.org/4806/7dc25203e351444a60e502adab45bf543c9d.pdf
-- Revisiting the Design of Data Stream Processing Systems on Multi-Core Processors, ICDE'17 https://www.comp.nus.edu.sg/~hebs/pub/shuhaoICDE17a.pdf
-- Exploiting Manycore Architectures for Parallel Data Stream Processing, GI-Workshop'18, http://ceur-ws.org/Vol-1858/paper13.pdf
-
-#### FPGA
-- A Computing Origami: Folding Streams in FPGAs, DAC'09 https://www.comp.nus.edu.sg/~wongwf/papers/DAC09_Andrei.pdf
-- Streams on Wires — A Query Compiler for FPGAs, VLDB'09 https://dl.acm.org/citation.cfm?id=1687654
-
-#### GPGPU
-- GStream: A General-Purpose Data Streaming Framework on GPU Clusters, ICPP'11 http://optout.csc.ncsu.edu/~mueller/ftp/pub/mueller/papers/icpp11-1.pdf
-- Processing data streams with hard real-time constraints on heterogeneous systems, ICS'11 https://dl.acm.org/citation.cfm?id=1995915
-- Scheduling processing of real-time data streams on heterogeneous multi-GPU systems, SYSTOR 2012 http://www.cs.technion.ac.il/~uriv/Publications/ver-multigpu-systor12-authorcopy.pdf
-- A Scalable Software Framework for Stateful Stream Data Processing on Multiple GPUs and Applications, GPU Computing and Applications'14  https://link.springer.com/chapter/10.1007/978-981-287-134-3_7
-- Toward GPU Accelerated Data Stream Processing, GI-Workshop'15 http://ceur-ws.org/Vol-1366/paper15.pdf
-- G-Storm: GPU-enabled high-throughput online data processing in Storm, BIG DATA '15 https://dl.acm.org/citation.cfm?id=2878053
-- Communication-aware mapping of stream graphs for multi-GPU platforms, CGO’16 https://dl.acm.org/citation.cfm?id=2854055
-- GStreamMiner: A GPU-accelerated Data Stream Mining Framework, CIKM'16 https://dl.acm.org/citation.cfm?id=2983341
-- SABER: Window-Based Hybrid Stream Processing for Heterogeneous Architectures, SIGMOD'16 https://www.matthiasweidlich.com/paper/saber_SIGMOD_2016.pdf
-
- 
-
-# others
+## others
 - P4CEP: Towards In-Network Complex Event Processing, NetCompute '18, https://dl.acm.org/citation.cfm?id=3229593
 - NVStream: accelerating HPC workflows with NVRAM-based transport for streaming objects, HPDC '18 https://dl.acm.org/citation.cfm?id=3208061 NOTE: not stream processing.
 - A Framework for Real-time Streaming Analytics using Machine Learning Approach, ICCST'14 https://ieeexplore.ieee.org/document/6987044/

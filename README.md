@@ -17,6 +17,7 @@ Reading list of research works at stream processing. PR are welcome!
 ## New Directions
 
 - Chi: A Scalable and Programmable Control Plane for Distributed Stream Processing Systems, VLDB'18 http://shivaram.org/publications/chi-vldb18.pdf
+- New Techniques to Curtail the Tail Latency in Stream Processing Systems, DCC'16 http://dprg.cs.uiuc.edu/docs/tail_latency_DCC16/lower_the_tail_latency_of_storm.pdf 
 
 ## APIs
 
@@ -115,7 +116,8 @@ Reading list of research works at stream processing. PR are welcome!
 - Scaling Ordered Stream Processing on Shared-Memory Multicores, 	arXiv'18 https://arxiv.org/abs/1803.11328
 - Exploiting Manycore Architectures for Parallel Data Stream Processing, GI-Workshop'18, http://ceur-ws.org/Vol-1858/paper13.pdf
 - Hammer Slide: Work- and CPU-efficient Streaming Window Aggregation, ADMS'18 https://spiral.imperial.ac.uk/bitstream/10044/1/62249/2/SIMDWindowPaper_ADMS.pdf
-
+- Scalejoin: A deterministic, disjoint-parallel and skew-resilient stream join, 2015 IEEE International Conference on Big Data (Big Data) http://www.cse.chalmers.se/~ioaniko/docs/bigdata15.pdf
+- SplitJoin: A Scalable, Low-latency Stream Join Architecture with Adjustable Ordering Precision, ATC'16 https://www.usenix.org/node/196252
 
 ### Infiniband
 - Low latency stream processing: Apache Heron with Infiniband & Intel Omni-Path, UCC’17 http://dsc.soic.indiana.edu/publications/Heron_Infiniband.pdf

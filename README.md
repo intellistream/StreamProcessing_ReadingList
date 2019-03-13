@@ -17,7 +17,7 @@ Reading list of research works at stream processing. PR are welcome!
 - How Soccer Players Would do Stream Joins, SIGMOD'11 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.362.2471&rep=rep1&type=pdf
 - Low-Latency Handshake Join, VLDB'14 http://www.vldb.org/pvldb/vol7/p709-roy.pdf
 - Scalejoin: A deterministic, disjoint-parallel and skew-resilient stream join, 2015 IEEE International Conference on Big Data (Big Data) http://www.cse.chalmers.se/~ioaniko/docs/bigdata15.pdf
-- SplitJoin: A Scalable, Low-latency Stream Join Architecture with Adjustable Ordering Precision, ATC'16 https://www.usenix.org/node/196252
+- SplitJoin: A Scalable, Low-latency Stream Join Architecture with Adjustable Ordering Precision, ATC'16 https://www.usenix.org/system/files/conference/atc16/atc16_paper-najafi.pdf
 - StreamBox: Modern Stream Processing on a Multicore Machine, ATC'17 https://www.usenix.org/system/files/conference/atc17/atc17-miao.pdf
 - Scaling Ordered Stream Processing on Shared-Memory Multicores, 	arXiv'18 https://arxiv.org/abs/1803.11328
 - Hammer Slide: Work- and CPU-efficient Streaming Window Aggregation, ADMS'18 https://spiral.imperial.ac.uk/bitstream/10044/1/62249/2/SIMDWindowPaper_ADMS.pdf
@@ -54,6 +54,7 @@ Reading list of research works at stream processing. PR are welcome!
 ### FPGA
 - A Computing Origami: Folding Streams in FPGAs, DAC'09 https://www.comp.nus.edu.sg/~wongwf/papers/DAC09_Andrei.pdf
 - Streams on Wires — A Query Compiler for FPGAs, VLDB'09 https://dl.acm.org/citation.cfm?id=1687654
+- Flexible query processor on FPGAs, VLDB'13 (demo) https://dl.acm.org/citation.cfm?id=2536303
 ### GPGPU
 - GStream: A General-Purpose Data Streaming Framework on GPU Clusters, ICPP'11 http://optout.csc.ncsu.edu/~mueller/ftp/pub/mueller/papers/icpp11-1.pdf
 - Processing data streams with hard real-time constraints on heterogeneous systems, ICS'11 https://dl.acm.org/citation.cfm?id=1995915
@@ -71,7 +72,7 @@ Reading list of research works at stream processing. PR are welcome!
 
 - Tutorial: Sliding-Window Aggregation Algorithms, http://hirzels.com/martin/papers/debs17-tutorial.pdf
 - A Survey of State Management in Big Data Processing Systems, VLDBJ'18 https://arxiv.org/pdf/1702.01596.pdf
-
+- A SURVEY OF JOIN PROCESSING IN DATA STREAMS, 2006 http://db.cs.duke.edu/papers/2006-xy-sjoinbook.pdf 
 ## Early Prototypes (before 2005)
 
 - TelegraphCQ: Continuous Dataflow Processing for an Uncertain World, CIDR'03 http://db.csail.mit.edu/madden/html/TCQcidr03.pdf
@@ -116,11 +117,12 @@ Reading list of research works at stream processing. PR are welcome!
 - A Comprehensive Survey on Parallelization and Elasticity in Stream Processing, ACM Computing Surveys'19 https://arxiv.org/pdf/1901.09716.pdf
 
 ## Deterministic Stream Processing
-
+- Sequence Pattern Query Processing over Out-of-Order Event Streams, ICDE'09 https://dspace.mit.edu/openaccess-disseminate/1721.1/59844
+- High-Performance Dynamic Pattern Matching over Disordered Streams, VLDB'10 http://vldb.org/pvldb/vldb2010/pvldb_vol3/R19.pdf
+- Reliable speculative processing of out-of-order event streams in generic publish/subscribe middlewares, DEBS '13 https://dl.acm.org/citation.cfm?id=2488263
 - FlameStream: Model and Runtime for Distributed Stream Processing, BeyondMR'18 https://dl.acm.org/citation.cfm?id=3209273
 - Deterministic Model for Distributed Speculative Stream Processing, ADBIS'18 https://link.springer.com/chapter/10.1007/978-3-319-98398-1_16
 - Maximizing Determinism in Stream Processing Under Latency Constraints, DEBS'17 https://dl.acm.org/citation.cfm?id=3093921
-- Sequence Pattern Query Processing over Out-of-Order Event Streams, ICDE'09 https://dspace.mit.edu/openaccess-disseminate/1721.1/59844
 - Quality-Driven Disorder Handling for M-way Sliding Window Stream Joins, ICDE'16 https://ieeexplore.ieee.org/document/7498265
 - Quality-driven disorder handling for concurrent windowed stream queries with shared operators, DEBS'16 https://dl.acm.org/citation.cfm?id=2933307
 - An optimistic approach to handle out-of-order events within analytical stream processing, SEIM'18 http://ceur-ws.org/Vol-2135/SEIM_2018_paper_16.pdf

@@ -108,6 +108,7 @@ Reading list of research works at stream processing. PR are welcome!
 - Drizzle: Fast and Adaptable Stream Processing at Scale, SOSP'17 http://shivaram.org/publications/drizzle-sosp17.pdf
 - Adaptive Stream Processing using Dynamic Batch Sizing, SoCC'14 https://dl.acm.org/citation.cfm?id=2670995
 - Sub-O(log n) Out-of-Order Sliding-Window Aggregation, https://arxiv.org/pdf/1810.11308.pdf
+- Cutty: Aggregate Sharing for User-Defined Windows, CIKM '16  https://dl.acm.org/citation.cfm?id=2983807
 
 ## Availability 
 - High-Availability Algorithms for Distributed Stream Processing, ICDE'05 http://cs.brown.edu/research/aurora/hwang.icde05.ha.pdf

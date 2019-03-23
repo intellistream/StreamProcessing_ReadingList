@@ -47,6 +47,9 @@ Reading list of research works at stream processing. PR are welcome!
 ## HW-Conscious Query Optimization
 ### Multisocket, multicore
 - Orchestrating the Execution of Stream Programs on Multicore Platforms, PLDI'08 https://dl.acm.org/citation.cfm?id=1375596
+- Mapping Stream Programs onto Heterogeneous Multiprocessor Systems, CASES '09 https://dl.acm.org/citation.cfm?id=1629395.1629406
+- MacroSS: macro-SIMDization of streaming applications, ASPLOS'10 https://dl.acm.org/citation.cfm?id=1736020.1736053
+- Orchestration by approximation: mapping stream programs onto multicore architectures, ASPLOS'11 https://dl.acm.org/citation.cfm?id=1950406
 - Cache-Conscious Scheduling of Streaming Applications, SPAA'12 https://dspace.mit.edu/bitstream/handle/1721.1/90261/leiserson_cache-conscious.pdf?sequence=1
 - Auto-pipelining for Data Stream Processing, TPDS'13 https://tristartom.github.io/docs/tpds13.pdf
 - Low Power and Scalable Many-Core Architecture for Big-Data Stream Computing,VLSI'14, http://medianetlab.ee.ucla.edu/papers/ISVLSI_FINAL.pdf
@@ -58,6 +61,9 @@ Reading list of research works at stream processing. PR are welcome!
 - Streams on Wires — A Query Compiler for FPGAs, VLDB'09 https://dl.acm.org/citation.cfm?id=1687654
 - Flexible query processor on FPGAs, VLDB'13 (demo) https://dl.acm.org/citation.cfm?id=2536303
 ### GPGPU
+- Software Pipelined Execution of Stream Programs on GPUs, CGO'09 https://ieeexplore.ieee.org/document/4907664
+- Sponge: Portable Stream Programming on Graphics Engines, ASPLOS'11 https://dl.acm.org/citation.cfm?id=1950409
+- Automated Architecture-Aware Mapping of Streaming Applications Onto GPUs, IPDPS'11 https://ieeexplore.ieee.org/document/6012816
 - GStream: A General-Purpose Data Streaming Framework on GPU Clusters, ICPP'11 http://optout.csc.ncsu.edu/~mueller/ftp/pub/mueller/papers/icpp11-1.pdf
 - Processing data streams with hard real-time constraints on heterogeneous systems, ICS'11 https://dl.acm.org/citation.cfm?id=1995915
 - Scheduling processing of real-time data streams on heterogeneous multi-GPU systems, SYSTOR 2012 http://www.cs.technion.ac.il/~uriv/Publications/ver-multigpu-systor12-authorcopy.pdf

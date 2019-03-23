@@ -59,7 +59,11 @@ Reading list of research works at stream processing. PR are welcome!
 ### FPGA
 - A Computing Origami: Folding Streams in FPGAs, DAC'09 https://www.comp.nus.edu.sg/~wongwf/papers/DAC09_Andrei.pdf
 - Streams on Wires — A Query Compiler for FPGAs, VLDB'09 https://dl.acm.org/citation.cfm?id=1687654
+- Multi-query Stream Processing on FPGAs, ICDE'12 https://ieeexplore.ieee.org/document/6228175
 - Flexible query processor on FPGAs, VLDB'13 (demo) https://dl.acm.org/citation.cfm?id=2536303
+
+
+
 ### GPGPU
 - Software Pipelined Execution of Stream Programs on GPUs, CGO'09 https://ieeexplore.ieee.org/document/4907664
 - Sponge: Portable Stream Programming on Graphics Engines, ASPLOS'11 https://dl.acm.org/citation.cfm?id=1950409

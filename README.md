@@ -27,11 +27,13 @@ Reading list of research works at stream processing. PR are welcome!
 - FPGA-Accelerated Group-by Aggregation Using Synchronizing Caches, DaMoN '16 https://dl.acm.org/citation.cfm?id=2933360
 - Single window stream aggregation using reconfigurable hardware, ICFPT'17 https://ieeexplore.ieee.org/abstract/document/8280128
 - Hammer Slide: Work- and CPU-efficient Streaming Window Aggregation, ADMS'18 https://spiral.imperial.ac.uk/bitstream/10044/1/62249/2/SIMDWindowPaper_ADMS.pdf
+- Scotty: Efficient Window Aggregation for out-of-order Stream Processing, ICDE'18
 
 ### Deterministic Operator
 - Scalejoin: A deterministic, disjoint-parallel and skew-resilient stream join, 2015 IEEE International Conference on Big Data (Big Data) http://www.cse.chalmers.se/~ioaniko/docs/bigdata15.pdf
 - StreamBox: Modern Stream Processing on a Multicore Machine, ATC'17 https://www.usenix.org/system/files/conference/atc17/atc17-miao.pdf
 - Scaling Ordered Stream Processing on Shared-Memory Multicores, 	arXiv'18 https://arxiv.org/abs/1803.11328
+
 
 ## Efficient Stream Flow
 ### In-DAG Stream Flow

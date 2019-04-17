@@ -64,8 +64,6 @@ Reading list of research works at stream processing. PR are welcome!
 - Multi-query Stream Processing on FPGAs, ICDE'12 https://ieeexplore.ieee.org/document/6228175
 - Flexible query processor on FPGAs, VLDB'13 (demo) https://dl.acm.org/citation.cfm?id=2536303
 
-
-
 ### GPGPU
 - Software Pipelined Execution of Stream Programs on GPUs, CGO'09 https://ieeexplore.ieee.org/document/4907664
 - Sponge: Portable Stream Programming on Graphics Engines, ASPLOS'11 https://dl.acm.org/citation.cfm?id=1950409
@@ -80,6 +78,16 @@ Reading list of research works at stream processing. PR are welcome!
 - Communication-aware mapping of stream graphs for multi-GPU platforms, CGO’16 https://dl.acm.org/citation.cfm?id=2854055
 - GStreamMiner: A GPU-accelerated Data Stream Mining Framework, CIKM'16 https://dl.acm.org/citation.cfm?id=2983341
 - SABER: Window-Based Hybrid Stream Processing for Heterogeneous Architectures, SIGMOD'16 https://www.matthiasweidlich.com/paper/saber_SIGMOD_2016.pdf
+
+## Complex Event Processing
+
+### Partition by key
+Partition and Compose: Parallel Complex Event Processing, DEBS ’12 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.374.1592&rep=rep1&type=pdf
+
+### Run-based
+RIP: run-based intra-query parallelism for scalable complex event processing, DEBS'13 https://dl.acm.org/citation.cfm?id=2488257
+
+
 
 # General Stream Processing 
 

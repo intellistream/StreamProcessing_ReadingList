@@ -28,6 +28,7 @@ Reading list of research works at stream processing. PR are welcome!
 - Single window stream aggregation using reconfigurable hardware, ICFPT'17 https://ieeexplore.ieee.org/abstract/document/8280128
 - Hammer Slide: Work- and CPU-efficient Streaming Window Aggregation, ADMS'18 https://spiral.imperial.ac.uk/bitstream/10044/1/62249/2/SIMDWindowPaper_ADMS.pdf
 - Scotty: Efficient Window Aggregation for out-of-order Stream Processing, ICDE'18
+- ShuntFlow: An Efficient and Scalable Dataflow Accelerator Architecture for Streaming Applications, DAC'19
 
 ### Deterministic Operator
 - Scalejoin: A deterministic, disjoint-parallel and skew-resilient stream join, 2015 IEEE International Conference on Big Data (Big Data) http://www.cse.chalmers.se/~ioaniko/docs/bigdata15.pdf

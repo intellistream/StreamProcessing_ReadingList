@@ -20,7 +20,7 @@ Reading list of research works at stream processing. PR are welcome!
 - SplitJoin: A Scalable, Low-latency Stream Join Architecture with Adjustable Ordering Precision, ATC'16 https://www.usenix.org/system/files/conference/atc16/atc16_paper-najafi.pdf
 - An FPGA-based High-Throughput Stream Join Architecture, FPL'16 https://www.extrahpc.eu/media/public/publicity/publication/an-fpga-based-high-throughput-stream-join-architecture.pdf
 - PanJoin: A Partition-based Adaptive Stream Join, arxiv'18 https://arxiv.org/abs/1811.05065
-- Parallel Index-based Stream Join on a Multicore CPU, arxiv'19 https://arxiv.org/pdf/1903.00452.pdf
+- Parallel Index-based Stream Join on a Multicore CPU, SIGMOD'20 https://dl.acm.org/doi/abs/10.1145/3318464.3380576
 
 ### Stream Aggregate
 - An Efficient and Scalable Implementation of Sliding-Window Aggregate Operator on FPGA, CANDAR'13 https://core.ac.uk/download/pdf/147692472.pdf

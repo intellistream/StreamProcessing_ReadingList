@@ -21,6 +21,7 @@ Reading list of research works at stream processing. PR are welcome!
 - An FPGA-based High-Throughput Stream Join Architecture, FPL'16 https://www.extrahpc.eu/media/public/publicity/publication/an-fpga-based-high-throughput-stream-join-architecture.pdf
 - PanJoin: A Partition-based Adaptive Stream Join, arxiv'18 https://arxiv.org/abs/1811.05065
 - Parallel Index-based Stream Join on a Multicore CPU, SIGMOD'20 https://dl.acm.org/doi/abs/10.1145/3318464.3380576
+- Parallelizing Intra-Window Join on Multicores: An Experimental Study, SIGMOD'21 https://shuhaozhangtony.github.io/assets/pdf/papers/StreamJoin_Preprint.pdf
 
 ### Stream Aggregate
 - An Efficient and Scalable Implementation of Sliding-Window Aggregate Operator on FPGA, CANDAR'13 https://core.ac.uk/download/pdf/147692472.pdf
@@ -34,14 +35,16 @@ Reading list of research works at stream processing. PR are welcome!
 - Scalejoin: A deterministic, disjoint-parallel and skew-resilient stream join, 2015 IEEE International Conference on Big Data (Big Data) http://www.cse.chalmers.se/~ioaniko/docs/bigdata15.pdf
 - StreamBox: Modern Stream Processing on a Multicore Machine, ATC'17 https://www.usenix.org/system/files/conference/atc17/atc17-miao.pdf
 - Scaling Ordered Stream Processing on Shared-Memory Multicores, 	arXiv'18 https://arxiv.org/abs/1803.11328
-
+- Speculative out-of-order event processing with software transaction memory, DEBS'18 https://doc.rero.ch/record/18131/files/Brito_Andrey_-_Speculative_Out-Of-Order_Event_Processing_with_Software_20100429.pdf
 
 ## Efficient Stream Flow
+
 ### In-DAG Stream Flow
 - TerseCades: Efficient Data Compression in Stream Processing, ATC'18 https://www.usenix.org/system/files/conference/atc18/atc18-pekhimenko.pdf
 - Low latency stream processing: Apache Heron with Infiniband & Intel Omni-Path, UCC’17 http://dsc.soic.indiana.edu/publications/Heron_Infiniband.pdf
 - StreamBox-HBM: Stream Analytics on High Bandwidth Hybrid Memory, ASPLOS'19 https://arxiv.org/pdf/1901.01328.pdf
 - Stream Processing on High-Bandwidth Memory, GI-Workshop'18 http://ceur-ws.org/Vol-2126/paper6.pdf
+
 ### Out-DAG Stream Flow
 - High-Performance Stateful Stream Processing on Solid-State Drives, APSys'18 http://spl.snu.ac.kr/wp-content/uploads/2012/07/a9-lee.pdf
 - An NVM-Aware Storage Layout for Analytical Workloads, http://www.carch.ac.cn/~ictdb/HardBD-Active-2018/papers/GotzeBS-hardbd-active-18.pdf

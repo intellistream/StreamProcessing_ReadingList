@@ -4,13 +4,14 @@ Reading list of research works at stream processing. PR are welcome!
 
 # Hardware Consious Stream Processing 
 
-## Experimental study
+## Survey and Experimental study
 
 - Evaluation of Streaming Aggregation on Parallel Hardware Architectures, DEBS'10 https://www.scott-a-s.com/files/debs2010.pdf.
 - Revisiting the Design of Data Stream Processing Systems on Multi-Core Processors, ICDE'17 https://www.comp.nus.edu.sg/~hebs/pub/shuhaoICDE17a.pdf
 - Analyzing Efficient Stream Processing on Modern Hardware, VLDB'19 http://www.vldb.org/pvldb/vol12/p516-zeuch.pdf
 - Parallelizing Intra-Window Join on Multicores: An Experimental Study, SIGMOD'21 https://shuhaozhangtony.github.io/assets/pdf/papers/StreamJoin_Preprint.pdf
-- 
+- Hardware-Conscious Stream Processing: A Survey, SIGMOD Record'19 https://dl.acm.org/doi/10.1145/3385658.3385662
+
 ## Accelerating Expensive Operator
 
 ### Stream Join
@@ -70,6 +71,9 @@ Reading list of research works at stream processing. PR are welcome!
 - Trill: A High-Performance Incremental Query Processor for Diverse Analytics, VLDB'14 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/trill-vldb2015.pdf
 - A Cost Model for Data Stream Processing on Modern Hardware, ADMS'17 https://pdfs.semanticscholar.org/4806/7dc25203e351444a60e502adab45bf543c9d.pdf
 - Exploiting Manycore Architectures for Parallel Data Stream Processing, GI-Workshop'18, http://ceur-ws.org/Vol-1858/paper13.pdf
+- BriskStream: Scaling Data Stream Processing on Shared-Memory Multicore Architectures, SIGMOD'19 https://dl.acm.org/doi/10.1145/3299869.3300067
+- Grizzly: Efficient Stream Processing Through Adaptive Query Compilation, SIGMOD'20 https://dl.acm.org/doi/10.1145/3318464.3389739
+- LightSaber: Efficient Window Aggregation on Multi-core Processors, SIGMOD'20 https://dl.acm.org/doi/10.1145/3318464.3389753
 
 ### FPGA
 
@@ -93,6 +97,7 @@ Reading list of research works at stream processing. PR are welcome!
 - Communication-aware mapping of stream graphs for multi-GPU platforms, CGO’16 https://dl.acm.org/citation.cfm?id=2854055
 - GStreamMiner: A GPU-accelerated Data Stream Mining Framework, CIKM'16 https://dl.acm.org/citation.cfm?id=2983341
 - SABER: Window-Based Hybrid Stream Processing for Heterogeneous Architectures, SIGMOD'16 https://www.matthiasweidlich.com/paper/saber_SIGMOD_2016.pdf
+- FineStream: Fine-Grained Window-Based Stream Processing on CPU-GPU Integrated Architectures, USENIX ATC'20 https://www.usenix.org/conference/atc20/presentation/zhang-feng
 
 # General Stream Processing 
 

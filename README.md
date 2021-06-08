@@ -1,6 +1,17 @@
 Stream Processing Systems ReadingList
 --
-Reading list of research works at stream processing. PR are welcome!
+Reading list of research works at stream processing (sorted purely based on my personal research interest recently). PR are welcome!
+
+# Machine Learning / Data Mining
+
+## Survey/Review
+
+- Learning under Concept Drift: A Review, https://arxiv.org/pdf/2004.05785.pdf
+- Online Machine Learning in Big Data Streams, arXiv'18 https://arxiv.org/pdf/1802.05872.pdf
+-
+## Frameworks
+- A Framework for Real-time Streaming Analytics using Machine Learning Approach, ICCST'14 https://ieeexplore.ieee.org/document/6987044/
+- Online Learning and Stochastic Approximations, https://leon.bottou.org/publications/pdf/online-1998.pdf
 
 # Hardware Consious Stream Processing 
 
@@ -181,9 +192,3 @@ Reading list of research works at stream processing. PR are welcome!
 - Partition and Compose: Parallel Complex Event Processing, DEBS ’12 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.374.1592&rep=rep1&type=pdf
 - RIP: run-based intra-query parallelism for scalable complex event processing, DEBS'13 https://dl.acm.org/citation.cfm?id=2488257
 - P4CEP: Towards In-Network Complex Event Processing, NetCompute '18, https://dl.acm.org/citation.cfm?id=3229593
-
-## Machine Learning / Data Mining
-
-- A Framework for Real-time Streaming Analytics using Machine Learning Approach, ICCST'14 https://ieeexplore.ieee.org/document/6987044/
-- Online Machine Learning in Big Data Streams, arXiv'18 https://arxiv.org/pdf/1802.05872.pdf
-- Online Learning and Stochastic Approximations, https://leon.bottou.org/publications/pdf/online-1998.pdf

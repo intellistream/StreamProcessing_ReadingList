@@ -1,6 +1,7 @@
 Stream Processing Systems ReadingList
 --
 Reading list of research works at stream processing. PR are welcome!
+Those can be treated as the "must-read entry books" to enter the field of stream processing.
 
 # General Stream Processing 
 
